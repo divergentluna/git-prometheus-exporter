@@ -12,7 +12,7 @@ import (
 
 func main() {
 
-	configPath := "configs/github_config.yaml"
+	configPath := "../../configs/example_config.yaml"
 	githubConfig, err := config.LoadGitHubConfig(configPath)
 	if err != nil {
 		log.Fatalf("Failed to load config: %v", err)
